@@ -2,7 +2,7 @@
 Esta página consiste en un formulario de solicitud de un trabajo en Cellnex. Los aplicantes rellenan un formulario con sus datos, que se guardan en una API Rest. Esta API puede ser accedida por los recruiters para ver los usuarios que han aplicado a los puestos.
 
 # Ver la práctica
-https://menendez6-pat5-yfbq0ol26bx.ws-eu38.gitpod.io/
+https://gitpod.io/#https://github.com/Menendez6/PAT5
 
 # Objetivo de la práctica
 
