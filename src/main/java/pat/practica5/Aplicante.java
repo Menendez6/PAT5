@@ -1,14 +1,40 @@
 package pat.practica5;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
 public class Aplicante {
 
+    @NotNull
+    @Size(min=2, max=30)
     private String name;
+
+    @NotNull
+    @Size(min=2, max=30)
     private String surname;
+
+    @NotNull
+    @Size(min=2, max=30)
     private String email;
+
+    @NotNull
+    @Size(min=2, max=30)
     private String address;
+
+    @NotNull
+    @Size(min=2, max=30)
     private String country;
+
+    @NotNull
+    @Size(min=2, max=30)
     private String city;
+
+    @NotNull
+    @Size(min=2, max=30)
     private int zip;
+
+    @NotNull
+    @Size(min=2, max=30)
     private String cv;
     
     public Aplicante(String name, String surname, String address, String email, String country, String city,
