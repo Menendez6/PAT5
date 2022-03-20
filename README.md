@@ -20,3 +20,5 @@ El usuario una vez corra la aplicación se encontrará con una página en la que
 - Además establecemos una validación en el lado del servidor, utilizando la validación de Springboot
 
 - Actuator. Permite comprobar el estado de la página. Si accedemos a localhost: 8080/actuator podremos ver el estado general de la web y ver sus datos.
+
+- Logging. Hemos incluido unos loging de prueba que se ejecutan al abrir localhost:8080/logs. Simplemente a modo de entender como funcionan los logs por consola.

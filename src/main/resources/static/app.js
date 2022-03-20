@@ -128,7 +128,7 @@ async function validateForm(){
 				country: country.value,
 				city: city.value,
 				zip: zip.value,
-				cv: cv.value
+				cv: cv.value//cv.files[0]
 			}),
 			dataType: "json",
 		}).catch(console.error);
