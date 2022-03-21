@@ -134,7 +134,7 @@ async function validateForm(){
 		}).catch(console.error);
 
 		if (request.ok){
-			//window.location.href = "./fin.html";
+			window.location.href = "./fin.html";
 			alert("Datos enviados");
 			console.log(await request.json());
 		}
